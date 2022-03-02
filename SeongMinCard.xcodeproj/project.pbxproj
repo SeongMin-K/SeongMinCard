@@ -11,6 +11,8 @@
 		3E4D85B827CF91EF00F10271 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D85B727CF91EF00F10271 /* ContentView.swift */; };
 		3E4D85BA27CF91F000F10271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D85B927CF91F000F10271 /* Assets.xcassets */; };
 		3E4D85BD27CF91F000F10271 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D85BC27CF91F000F10271 /* Preview Assets.xcassets */; };
+		3E4D85C527CF94E300F10271 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D85C427CF94E300F10271 /* Pacifico-Regular.ttf */; };
+		3E4D85CA27CF9CF000F10271 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D85C927CF9CF000F10271 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		3E4D85B727CF91EF00F10271 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E4D85B927CF91F000F10271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E4D85BC27CF91F000F10271 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E4D85C427CF94E300F10271 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		3E4D85C627CF95E700F10271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3E4D85C927CF9CF000F10271 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		3E4D85B427CF91EF00F10271 /* SeongMinCard */ = {
 			isa = PBXGroup;
 			children = (
+				3E4D85C627CF95E700F10271 /* Info.plist */,
+				3E4D85C327CF939800F10271 /* Fonts */,
 				3E4D85B527CF91EF00F10271 /* SeongMinCardApp.swift */,
 				3E4D85B727CF91EF00F10271 /* ContentView.swift */,
+				3E4D85C927CF9CF000F10271 /* InfoView.swift */,
 				3E4D85B927CF91F000F10271 /* Assets.xcassets */,
 				3E4D85BB27CF91F000F10271 /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				3E4D85BC27CF91F000F10271 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E4D85C327CF939800F10271 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3E4D85C427CF94E300F10271 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E4D85C527CF94E300F10271 /* Pacifico-Regular.ttf in Resources */,
 				3E4D85BD27CF91F000F10271 /* Preview Assets.xcassets in Resources */,
 				3E4D85BA27CF91F000F10271 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E4D85B827CF91EF00F10271 /* ContentView.swift in Sources */,
+				3E4D85CA27CF9CF000F10271 /* InfoView.swift in Sources */,
 				3E4D85B627CF91EF00F10271 /* SeongMinCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +290,7 @@
 				DEVELOPMENT_TEAM = BR8CN8N4Y6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeongMinCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +320,7 @@
 				DEVELOPMENT_TEAM = BR8CN8N4Y6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeongMinCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
